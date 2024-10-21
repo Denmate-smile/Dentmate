@@ -207,7 +207,7 @@ form button:hover {
 /* Pie de página */
 footer {
     background-color: #2a5298;
-    color: white; /* Cambié el color a blanco */
+    color: white; /* Este es el color blanco para la letra */
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
