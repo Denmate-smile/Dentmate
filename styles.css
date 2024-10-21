@@ -74,6 +74,10 @@ nav ul li a:hover {
     text-align: center;
 }
 
+#inicio h1, #inicio p {
+    color: #fff; /* Color de texto blanco */
+}
+
 #inicio h1 {
     font-size: 3rem;
     margin-bottom: 20px;
@@ -145,13 +149,21 @@ button:hover {
 .contacto {
     padding: 3rem 2rem;
     background-color: #f5f7fa;
+    text-align: center;
 }
 
 form {
-    max-width: 400px;
+    max-width: 600px;
     margin: 0 auto;
+}
+
+.form-group {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-group div {
+    width: 48%;
 }
 
 form label {
@@ -166,6 +178,7 @@ form input {
     border-radius: 5px;
     border: 1px solid #ddd;
     font-size: 1rem;
+    width: 100%;
 }
 
 form button {
@@ -186,7 +199,7 @@ form button:hover {
 /* Pie de página */
 footer {
     background-color: #2a5298;
-    color: white;
+    color: white; /* Color blanco para el texto */
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
