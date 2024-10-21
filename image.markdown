@@ -3,7 +3,7 @@ dentmate/
 ├── index.html
 ├── styles.css
 └── images/
-    ├── logo.jpg
+    ├── logo.png
     ├── yeso-dental.jpg
     ├── acrilico-dental.jpg
     ├── resina-compuesta.jpg
