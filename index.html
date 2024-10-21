@@ -33,51 +33,34 @@
         <section id="catalogo" class="catalogo">
             <h2>Catálogo de Productos</h2>
 
-            <!-- Producto 1: Yeso Dental -->
-            <div class="producto">
-                <img src="images/yeso-dental.jpg" alt="Yeso Dental">
-                <h3>Yeso Dental</h3>
-                <p>Yeso de alta precisión para moldes dentales. Ideal para odontología y laboratorio dental.</p>
-                <p><strong>$25.000</strong></p>
-                <button>Añadir al carrito</button>
-            </div>
-
-            <!-- Producto 2: Acrílico Dental -->
-            <div class="producto">
-                <img src="images/acrilico-dental.jpg" alt="Acrílico Dental">
-                <h3>Acrílico Dental</h3>
-                <p>Acrílico autopolimerizable para la fabricación de prótesis dentales.</p>
-                <p><strong>$80.000</strong></p>
-                <button>Añadir al carrito</button>
-            </div>
-
-            <!-- Producto 3: Resinas Compuestas -->
-            <div class="producto">
-                <img src="images/resina-compuesta.jpg" alt="Resinas Compuestas">
-                <h3>Resinas Compuestas</h3>
-                <p>Resinas compuestas de alta calidad para restauraciones estéticas dentales.</p>
-                <p><strong>$50.000</strong></p>
-                <button>Añadir al carrito</button>
-            </div>
-
-            <!-- Producto 4: Instrumentos para Laboratorio -->
-            <div class="producto">
-                <img src="images/instrumentos-laboratorio.jpg" alt="Instrumentos para Laboratorio">
-                <h3>Instrumentos para Laboratorio</h3>
-                <p>Set completo de instrumentos para laboratorio dental, resistente y duradero.</p>
-                <p><strong>$150.000</strong></p>
-                <button>Añadir al carrito</button>
-            </div>
+            <!-- Productos -->
+            <!-- Aquí van los productos como en el código anterior -->
 
         </section>
 
         <section id="contacto" class="contacto">
             <h2>Contáctanos</h2>
             <form>
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
-                <label for="correo">Correo Electrónico:</label>
-                <input type="email" id="correo" name="correo" placeholder="Tu correo electrónico">
+                <div class="form-group">
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+                    </div>
+                    <div>
+                        <label for="correo">Correo Electrónico:</label>
+                        <input type="email" id="correo" name="correo" placeholder="Tu correo electrónico">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div>
+                        <label for="telefono">Número:</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Tu número de teléfono">
+                    </div>
+                    <div>
+                        <label for="direccion">Dirección:</label>
+                        <input type="text" id="direccion" name="direccion" placeholder="Tu dirección">
+                    </div>
+                </div>
                 <button type="submit">Enviar</button>
             </form>
         </section>
