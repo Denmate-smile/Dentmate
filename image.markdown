@@ -8,3 +8,5 @@ dentmate/
     ├── acrilico-dental.jpg
     ├── resina-compuesta.jpg
     └── instrumentos-laboratorio.jpg
+    └──imagen-micromotor.jpg
+    └──imagen-recortadora.jpg
